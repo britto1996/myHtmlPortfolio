@@ -18,11 +18,12 @@
   <body>
     <div class="container mt-3">
       <h1>Contact Me Here Buddy's</h1>
-      <form>
+      <form action="mailto:btm15037@gmail.com" method="post" enctype="text/plain">
         <div class="form-group mt-3">
           <label for="exampleInputEmail1">Name</label>
           <input
             type="text"
+            name="name"
             class="form-control"
             id="exampleInputEmail1"
             aria-describedby="emailHelp"
@@ -33,6 +34,7 @@
           <label for="exampleInputEmail1">Email</label>
           <input
             type="text"
+            name="email"
             class="form-control"
             id="exampleInputEmail1"
             aria-describedby="emailHelp"
@@ -40,7 +42,7 @@
           />
         <div class="form-group mt-3">
           <label for="comment">Leave your message</label>
-          <textarea class="form-control" rows="5" id="comment"></textarea>
+          <textarea name="message" class="form-control" rows="5" id="comment"></textarea>
         </div>
         <button type="submit" class="btn btn-primary mt-3">Submit</button>
       </form>
